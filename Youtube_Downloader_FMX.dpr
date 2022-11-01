@@ -1,5 +1,7 @@
 program Youtube_Downloader_FMX;
 
+{$R *.dres}
+
 uses
   System.StartUpCopy,
   FMX.Forms,
@@ -7,7 +9,7 @@ uses
   ufrmMain in 'ufrmMain.pas' {frmMain},
   udmStyles in 'udmStyles.pas' {dmStyles: TDataModule},
   uDownloadListBoxItem in 'uDownloadListBoxItem.pas',
-  uDownloadThread in 'uDownloadThread.pas';
+  uCommonFunctions in 'uCommonFunctions.pas';
 
 {$R *.res}
 
